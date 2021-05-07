@@ -71,6 +71,7 @@ h5{
 
 .gurman_club h5:last-of-type {
   font-weight: 600;
+  margin-left: 10px;
 }
 
 .menu{
@@ -88,7 +89,7 @@ h5{
 }
 
 .category__name{
-  padding: 10px;
+  padding: 5px 10px;
   background-color: black;
   color: white; 
 }
@@ -96,14 +97,16 @@ h5{
 .menu__item{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .item__name{
+  font-weight: 400;
   font-size: 16px;
 }
 
 .item__desc{
+  font-weight: 400;
   padding: 0;
   margin: 0;
   margin-top: 5px;
@@ -122,10 +125,12 @@ h5{
 }
 
 .item__size{
+  font-weight: 400;
   margin: auto;
 }
 
 .item__price{
+  font-weight: 400;
   margin: auto;
 }
 
