@@ -1,5 +1,6 @@
 body{
     font-family: 'Bad Script', cursive;
+    padding-bottom: 300px;
 }
 
 .container {
@@ -188,8 +189,11 @@ header .header__wrapper{
 
 .interior{
     padding-top: 40px;
-    display: flex;
-    justify-content: center;
+}
+
+.heading__wrapper{
+  display: flex;
+  justify-content: center;
 }
 
 .interior__heading{
@@ -199,6 +203,65 @@ header .header__wrapper{
     text-align: center;
     background-color: black;
     display: inline;
-    color: white;
+    color: white
     
+}
+
+#interior__slider{
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.about__sec{
+  margin-top: 50px;
+  position: relative;
+}
+
+.about-us__img{
+  width: 100%;
+}
+
+.about__us{
+  position: absolute;
+  font-size: 55px;
+  top: 40%;
+  left: 20%;
+  color: white;
+}
+
+.about2{
+  background-image: url("../img/paper_bg-1.png");
+  position: relative;
+  padding: 40px 0;
+}
+
+.lustra__img{
+  margin-left: 25%;
+  width: 40%;
+  height: auto;
+}
+
+.about__desc1,
+.about__desc2{
+  position: absolute;
+  width: 20%;
+  z-index: 2;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.about__desc1{
+  top: 25%; 
+  left: 22%;  
+}
+
+.about__desc2{
+  bottom: 20%; 
+  left: 60%;  
+}
+
+footer{
+  background-color: #262626;
 }

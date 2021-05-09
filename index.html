@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="assets/js/splide.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/splide-default.min.css">
+    <link rel="stylesheet" href="assets/css/splide.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@200;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -48,10 +52,67 @@
     </section>
 
     <section class="interior">
-        <h2 class="interior__heading">Интерьер</h2>
-        
+        <div class="container">
+            <div class="heading__wrapper">
+            <h2 class="interior__heading">Интерьер</h2>
+            </div>  
+            <div class="splide" id="interior__slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="assets/img/biglustra.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/img/table.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/img/window.jpg">
+                        </li>
+                    
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>
 
     </section>
+
+    <section class="about__sec">
+        <img src="assets/img/darkback.png" alt="" class="about-us__img">
+        <h1 class="about__us">О нас</h1>
+        
+    </section>
+
+    <section class="about2">
+        <img src="assets/img/lustra.jpg" alt="" class="lustra__img">
+        <div class="about__desc1">
+            <p>Совершенство в каждой детали и стремление к безупречности абсолютно во всем - основа нашего ресторана.</p>
+            <p>Мы стараемся уделить внимание каждому гостю и быть лучшими в своей сфере.</p>
+        </div>
+        <div class="about__desc2">
+            <p>Атмосфера нашего заведения состоит из 3 важных сочетаний интерьер, великолепные гости и прекрасный персонал!</p>
+            <p>С первым и последний у нас полный порядок, ну а Вас дорогие гости, ждём с нетерпением, каждый день</p>
+            <p>Работаем с 12:00 до 00:00</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__heading"></h4>
+                    <p class="footer__desc"></p>
+
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__heading"></h4>
+                    <p class="footer__desc"></p>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script>
 
@@ -67,9 +128,20 @@
             }
           }
         }
-    
-    
+        
+        new Splide( '.splide', {
+	        type   : 'loop',
+	        perPage: 3,
+	        focus  : 'center',
+            autoplay: true,
+            gap: 30,
+            cover: true,
+            heightRatio: 0.45,
+        } ).mount();
+        
         </script>
+
+        
     
 </body>
 </html>
