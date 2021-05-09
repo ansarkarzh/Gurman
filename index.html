@@ -9,37 +9,52 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="assets/js/splide.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/51b7c64473.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/splide-default.min.css">
     <link rel="stylesheet" href="assets/css/splide.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header__wrapper">   
                 <div class="navbar">
-                        <a href="#">Главная</a>
+                        <a href="index.html#main">Главная</a>
                         <div class="dropdown">
                             <button class="dropbtn" onclick="myFunction()">Меню
                             <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content" id="myDropdown">
-                                <a href="#">Кухня</a>
-                                <a href="#">Бар</a>
+                                <a href="menu.html">Кухня</a>
+                                <a href="bar.html">Бар</a>
                             </div>
                         </div>
-                        <a href="#">Интерьер</a>
-                        <a href="#">О Нас</a> 
-                </div> 
+                        <a href="index.html#interior">Интерьер</a>
+                        <a href="index.html#about-href">О Нас</a> 
+                </div>
+                
             </div>
         </div> 
     </header>
+    <div class="menu">
+        <nav>
+            <li><a href="index.html#main" class="menu-link">Главная</a></li>
+            <li><a href="menu.html" class="menu-link">Кухня</a></li>
+            <li><a href="bar.html" class="menu-link">Бар</a></li>
+            <li><a href="index.html#interior" class="menu-link">Интерьер</a></li>
+            <li><a href="index.html#about-href" class="menu-link">О Нас</a></li>
+        </nav>
+    </div>
+    <a href="#" name="main"></a>
     <section class="first__section">
         <div class="about__content">
             <h1>Gurman Club</h1>
-            <p>Первый настоящий Винный Ресторан</p>
-            <p>вина многих мировых виноделен</p>
+            <p>Первый настоящий Винный Ресторан.</p>
+            <p>Вина многих мировых виноделен.</p>
          </div>
     </section>
     <section class="second__section">
@@ -50,7 +65,7 @@
 И в этот момент каждый наш гость становится гурманом.</p>
         </div>
     </section>
-
+    <a href="#" name="interior"></a>
     <section class="interior">
         <div class="container">
             <div class="heading__wrapper">
@@ -77,13 +92,13 @@
         </div>
 
     </section>
-
+    <a href="#" name="about-href"></a>
     <section class="about__sec">
         <img src="assets/img/darkback.png" alt="" class="about-us__img">
         <h1 class="about__us">О нас</h1>
         
     </section>
-
+    
     <section class="about2">
         <img src="assets/img/lustra.jpg" alt="" class="lustra__img">
         <div class="about__desc1">
@@ -92,8 +107,8 @@
         </div>
         <div class="about__desc2">
             <p>Атмосфера нашего заведения состоит из 3 важных сочетаний интерьер, великолепные гости и прекрасный персонал!</p>
-            <p>С первым и последний у нас полный порядок, ну а Вас дорогие гости, ждём с нетерпением, каждый день</p>
-            <p>Работаем с 12:00 до 00:00</p>
+            <p>С первым и последним у нас полный порядок, ну а Вас дорогие гости, ждём с нетерпением, каждый день.</p>
+            <p>Работаем с 12:00 до 00:00.</p>
         </div>
     </section>
 
@@ -101,13 +116,25 @@
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__content">
-                    <h4 class="footer__heading"></h4>
-                    <p class="footer__desc"></p>
-
+                    <h4 class="footer__heading">Gurman Club</h4>
+                    <p class="footer__desc">Первый настоящий Винный Ресторан</p>
+                    <p class="footer__desc">Вина многих мировых виноделен</p>
+                    <div class="social__networks"><a href="https://www.instagram.com/gurman_club_pvl/" class="insta">Наш инстаграм -<i class="fab fa-instagram"></i></a></div>
                 </div>
-                <div class="footer__content">
-                    <h4 class="footer__heading"></h4>
-                    <p class="footer__desc"></p>
+                <div class="footer__content inner__content">
+                    <div class="footer__content">
+                    
+                        <h4 class="footer__heading">Режим работы</h4>
+                        <p class="footer__desc">с 12:00 до 00:00</p>
+                        
+                    </div>
+                    <div class="footer__content">
+                    
+                        <h4 class="footer__heading">КОНТАКТНАЯ ИНФОРМАЦИЯ:</h4>
+                        <p class="footer__desc"><i class="fas fa-map-marker-alt"></i>Академика Чокина, 25</p>
+                        <p class="footer__desc"><i class="fas fa-phone-alt"></i><a class="tel__num" href="tel:+77182676984">+7 (7182) 67-69-84</a></p>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -116,18 +143,7 @@
 
     <script>
 
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
         
-        window.onclick = function(e) {
-          if (!e.target.matches('.dropbtn')) {
-          var myDropdown = document.getElementById("myDropdown");
-            if (myDropdown.classList.contains('show')) {
-              myDropdown.classList.remove('show');
-            }
-          }
-        }
         
         new Splide( '.splide', {
 	        type   : 'loop',
@@ -137,10 +153,18 @@
             gap: 30,
             cover: true,
             heightRatio: 0.45,
+            breakpoints: {
+                400: {
+                    heightRatio: 0.6,
+                    gap: 15,
+                }
+            },
         } ).mount();
         
         </script>
 
+
+        <script src="assets/js/script.js"></script>
         
     
 </body>

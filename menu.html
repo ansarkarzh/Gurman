@@ -7,11 +7,46 @@
     <title>Gurman</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/menu.css">
+    <script src="https://kit.fontawesome.com/51b7c64473.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div class="header__wrapper">   
+                <div class="navbar">
+                        <a href="index.html#main">Главная</a>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="myFunction()">Меню
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="menu.html">Кухня</a>
+                                <a href="bar.html">Бар</a>
+                            </div>
+                        </div>
+                        <a href="index.html#interior">Интерьер</a>
+                        <a href="index.html#about-href">О Нас</a> 
+                </div>
+                
+            </div>
+        </div> 
+    </header>
+    <div class="menu">
+        <nav>
+            <li><a href="index.html#main" class="menu-link">Главная</a></li>
+            <li><a href="menu.html" class="menu-link">Кухня</a></li>
+            <li><a href="bar.html" class="menu-link">Бар</a></li>
+            <li><a href="index.html#interior" class="menu-link">Интерьер</a></li>
+            <li><a href="index.html#about-href" class="menu-link">О Нас</a></li>
+        </nav>
+    </div>
     <section class="bar__section">
         <div class="container bar__name">
             <h1>Меню кухня</h1>
@@ -29,7 +64,7 @@
                 </div>
                 <h5>кухня</h5>
             </div>
-            <div class="menu">
+            <div class="menus">
                 <div class="menu__wrapper">
                     <div class="items__wrapper">
                         <h5 class="category__name">Кофейная карта</h5>
@@ -317,6 +352,34 @@
             </div>
         </div>
     </section>
-    
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__heading">Gurman Club</h4>
+                    <p class="footer__desc">Первый настоящий Винный Ресторан</p>
+                    <p class="footer__desc">Вина многих мировых виноделен</p>
+                    <div class="social__networks"><a href="https://www.instagram.com/gurman_club_pvl/" class="insta">Наш инстаграм -<i class="fab fa-instagram"></i></a></div>
+                </div>
+                <div class="footer__content inner__content">
+                    <div class="footer__content">
+                    
+                        <h4 class="footer__heading">Режим работы</h4>
+                        <p class="footer__desc">с 12:00 до 00:00</p>
+                        
+                    </div>
+                    <div class="footer__content">
+                    
+                        <h4 class="footer__heading">КОНТАКТНАЯ ИНФОРМАЦИЯ:</h4>
+                        <p class="footer__desc">Академика Чокина, 25</p>
+                        <p class="footer__desc"><a class="tel__num" href="tel:+77182676984">+7 (7182) 67-69-84</a></p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
