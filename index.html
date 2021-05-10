@@ -17,13 +17,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header__wrapper">   
                 <div class="navbar">
-                        <a href="index.html#main">Главная</a>
+                        <a href="index.html#main" id="firstnav">Главная</a>
                         <div class="dropdown">
                             <button class="dropbtn" onclick="myFunction()">Меню
                             <i class="fa fa-caret-down"></i>
@@ -51,10 +52,12 @@
     </div>
     <a href="#" name="main"></a>
     <section class="first__section">
-        <div class="about__content">
-            <h1>Gurman Club</h1>
-            <p>Первый настоящий Винный Ресторан.</p>
-            <p>Вина многих мировых виноделен.</p>
+        <div class="container">
+            <div class="about__content">
+                <h1>Gurman Club</h1>
+                <p>Первый настоящий Винный Ресторан.</p>
+                <p>Вина многих мировых виноделен.</p>
+            </div>
          </div>
     </section>
     <section class="second__section">
@@ -101,13 +104,15 @@
     
     <section class="about2">
         <img src="assets/img/lustra.jpg" alt="" class="lustra__img">
-        <div class="about__desc1">
+        <div class="about__desc1" data-aos="fade-right">
             <p>Совершенство в каждой детали и стремление к безупречности абсолютно во всем - основа нашего ресторана.</p>
             <p>Мы стараемся уделить внимание каждому гостю и быть лучшими в своей сфере.</p>
         </div>
-        <div class="about__desc2">
+        <div class="about__desc2" data-aos="fade-left">
             <p>Атмосфера нашего заведения состоит из 3 важных сочетаний интерьер, великолепные гости и прекрасный персонал!</p>
             <p>С первым и последним у нас полный порядок, ну а Вас дорогие гости, ждём с нетерпением, каждый день.</p>
+            <br>
+            <br>
             <p>Работаем с 12:00 до 00:00.</p>
         </div>
     </section>
@@ -165,7 +170,11 @@
 
 
         <script src="assets/js/script.js"></script>
-        
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>  
     
 </body>
 </html>

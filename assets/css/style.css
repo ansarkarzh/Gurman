@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Bad Script', cursive;
 }
@@ -37,7 +41,7 @@ body{
 .first__section{
     height: 100vh;
     max-height: 1080px;
-    background: url(../img/wineback.jpg) no-repeat right;
+    background: url(../img/bg.jpg) no-repeat right;
     background-size: cover;
     position: relative;
 }
@@ -46,12 +50,14 @@ body{
 
 .about__content{
     position: absolute;
-    left: 20%;
+    /*left: 20%;*/
     top: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    /*text-align: center;*/
 }
 
 .about__content h1{
@@ -115,20 +121,26 @@ header .header__wrapper{
 
   
   .navbar a {
+    background-color: transparent;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
-    text-align: right;
+    /*text-align: right;*/
     padding: 14px 16px;
     text-decoration: none;
   }
   
+  #firstnav{
+  padding-left: 0px;
+}
+
   .dropdown {
     float: left;
     overflow: hidden;
   }
   
   .dropdown .dropbtn {
+    font-size: 14px;
     cursor: pointer;
     border: none;
     outline: none;
@@ -138,8 +150,9 @@ header .header__wrapper{
     margin: 0;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: #333333;
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:hover {
+    color: white;
+    opacity: 0.7;
   }
   
   .dropdown-content {
@@ -158,7 +171,7 @@ header .header__wrapper{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: right;
+    /*text-align: right;*/
   }
   
   .dropdown-content a:hover {
@@ -198,7 +211,7 @@ header .header__wrapper{
 .interior__heading{
     font-size: 34px;
     letter-spacing: 10px;
-    padding: 10px 50px;
+    padding: 20px 50px;
     text-align: center;
     background-color: black;
     display: inline;
@@ -272,6 +285,11 @@ header .header__wrapper{
 }
 
 @media (max-width: 700px){
+  .about__content{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
   .about__desc1,
   .about__desc2{
     font-size: 12px;
@@ -283,7 +301,11 @@ header .header__wrapper{
     margin-left: 15%;
     width: 60%;
   }
-
+  .about__content{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
   .about__desc1,
   .about__desc2{
     font-size: 11px;
@@ -303,8 +325,17 @@ header .header__wrapper{
 
 }
 
+@media (max-width: 500px){
+  .about__content{
+    padding: 0;
+    margin: auto;
+  }
+}
 
 @media (max-width: 400px){
+  .about__content{
+    left: 0;
+  }
   .lustra__img{
     margin-left: 5%;
     width: 80%;
@@ -365,7 +396,7 @@ header .header__wrapper{
     right: 0;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 15px 0px;
     background-color: black;
     transform: translateX(100%);
     transition: transform 0.5s; 
@@ -495,5 +526,11 @@ footer{
 
   .footer__content{
     width: 100%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .about__content{
+    text-align: center;
   }
 }

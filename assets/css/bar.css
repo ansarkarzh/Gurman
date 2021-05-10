@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Bad Script', cursive;
     margin: 0;
@@ -158,6 +162,9 @@ h5{
   .item__size{
     font-size: 10px;
   }
+  .about__content{
+    text-align: center;
+  }
 }
 
 @media (min-width: 767.98px){
@@ -226,6 +233,9 @@ h5{
     font-size: 24px;
     width: 40%;
   }
+  .bar__name{
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1199.98px){
@@ -286,12 +296,17 @@ header .header__wrapper{
 
 
 .navbar a {
+  background-color: transparent;
+  font-size: 14px;
   float: left;
-  font-size: 16px;
   color: white;
-  text-align: right;
+  /*text-align: right;*/
   padding: 14px 16px;
   text-decoration: none;
+}
+
+#firstnav{
+  padding-left: 0px;
 }
 
 .dropdown {
@@ -300,6 +315,7 @@ header .header__wrapper{
 }
 
 .dropdown .dropbtn {
+  font-size: 14px;
   cursor: pointer;
   border: none;
   outline: none;
@@ -309,8 +325,9 @@ header .header__wrapper{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: #333333;
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:hover {
+  color: white;
+  opacity: 0.7;
 }
 
 .dropdown-content {
@@ -329,7 +346,7 @@ header .header__wrapper{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: right;
+  /*text-align: right;*/
 }
 
 .dropdown-content a:hover {
@@ -369,7 +386,7 @@ header .header__wrapper{
     right: 0;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 15px 0px;
     background-color: black;
     transform: translateX(100%);
     transition: transform 0.5s; 
@@ -500,5 +517,11 @@ footer{
 
   .footer__content{
     width: 100%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .about__content{
+    text-align: center;
   }
 }
