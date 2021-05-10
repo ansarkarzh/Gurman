@@ -325,6 +325,12 @@ header .header__wrapper{
 
 }
 
+@media (max-width: 500px){
+  .about__content{
+    padding: 0;
+    margin: auto;
+  }
+}
 
 @media (max-width: 400px){
   .about__content{
