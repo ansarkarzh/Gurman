@@ -41,7 +41,7 @@ body{
 .first__section{
     height: 100vh;
     max-height: 1080px;
-    background: url(../img/wineback.jpg) no-repeat right;
+    background: url(../img/bg.jpg) no-repeat right;
     background-size: cover;
     position: relative;
 }
@@ -55,6 +55,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
     /*text-align: center;*/
 }
 
@@ -283,6 +285,11 @@ header .header__wrapper{
 }
 
 @media (max-width: 700px){
+  .about__content{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
   .about__desc1,
   .about__desc2{
     font-size: 12px;
@@ -294,7 +301,11 @@ header .header__wrapper{
     margin-left: 15%;
     width: 60%;
   }
-
+  .about__content{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
   .about__desc1,
   .about__desc2{
     font-size: 11px;
@@ -316,6 +327,9 @@ header .header__wrapper{
 
 
 @media (max-width: 400px){
+  .about__content{
+    left: 0;
+  }
   .lustra__img{
     margin-left: 5%;
     width: 80%;
