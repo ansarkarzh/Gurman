@@ -158,6 +158,9 @@ h5{
   .item__size{
     font-size: 10px;
   }
+  .about__content{
+    text-align: center;
+  }
 }
 
 @media (min-width: 767.98px){
@@ -510,5 +513,11 @@ footer{
 
   .footer__content{
     width: 100%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .about__content{
+    text-align: center;
   }
 }
