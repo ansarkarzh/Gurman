@@ -130,7 +130,7 @@ h5{
 .menu__item{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 2 10px;
 }
 
 .item__name{
@@ -147,12 +147,12 @@ h5{
 
 .item{
   padding: 10px;
-  width: 50%;
+  width: 70%;
   padding-left: 0px;
 }
 
 .price{
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
@@ -407,10 +407,10 @@ header .header__wrapper{
   display: none;
 }
 
-.cold{
+.cold, .coffee__cart, .whiskey{
   background-image: url(../img/menu-kitchen/cold.jpg);
   background-repeat: no-repeat;
-  background-position: 200%;
+  background-position: 490%;
   background-size: auto 100%;
 }
 
@@ -459,14 +459,14 @@ header .header__wrapper{
   /*transform: translate(-25%, -25%);*/
 }
 
-.hot{
+.hot, .konyak{
   background-image: url(../img/menu-kitchen/hot.jpg);
   background-repeat: no-repeat;
-  background-position: 120%;
+  background-position: 350%;
   background-size: auto 100%;
 }
 
-.desert{
+.desert, .tequilla{
   background-image: url(../img/menu-kitchen/desert.jpg);
   background-repeat: no-repeat;
   background-position: right 20%;
@@ -498,8 +498,8 @@ header .header__wrapper{
 }
 
 @media (max-width: 1200px){
-  .cold, .coffee__cart{
-    background-position:-40% 50%;
+  .cold, .coffee__cart, .whiskey{
+    background-position:0 50%;
   }
   
   .salat, .classic__tea{
@@ -510,19 +510,21 @@ header .header__wrapper{
     max-height: 400px;
 
   }
-  .hot{
-    background-position: -900% 50%;
+  .hot, .konyak{
+    background-position: -50% 50%;
   }
   
 }
 @media (max-width: 765px){
-  .cold, .coffee__cart{
+  .cold, .coffee__cart, .whiskey{
     background-position: 30% 50%;
   }
   
-  .hot{
+  .hot, .konyak{
     background-position: -50% 50%;
   }
+
+ 
   
 }
 @media (max-width: 600px){
@@ -530,33 +532,36 @@ header .header__wrapper{
     max-height: 200px;
 
   }
-  .cold, .coffee__cart{
+  .cold, .coffee__cart, .whiskey{
     background-position: -90% 50%;
   }
   
-  .hot{
+  .hot, .konyak{
     background-position: 250% 50%;
+  }
+  .soup, .author__tea{
+    background-size: auto 100%; 
   }
   
 }
 @media (max-width: 500px){
 
-  .cold, .coffee__cart{
+  .cold, .coffee__cart, .whiskey{
     background-position: -30% 50%;
   }
   
-  .hot{
+  .hot, .konyak{
     background-position: 110% 50%;
   }
   
 }
 @media (max-width: 450px){
 
-  .cold, .coffee__cart{
+  .cold, .coffee__cart, .whiskey{
     background-position: -10% 50%;
   }
   
-  .hot{
+  .hot, .konyak{
     background-position: -40% 50%;
   }
   
@@ -567,11 +572,11 @@ header .header__wrapper{
     background-position: 10% 50%;
   }
   
-  .hot{
+  .hot, .konyak{
     background-position: -10% 50%;
   }
 
-  .desert{
+  .desert, .tequilla{
     background-size:  auto 100%;
   }
   
