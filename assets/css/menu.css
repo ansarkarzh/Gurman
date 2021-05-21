@@ -407,27 +407,30 @@ header .header__wrapper{
   display: none;
 }
 
-.cold{
-  background-image: url(https://i.ibb.co/XFsJp51/cold.jpg);
-  background-position: center;
-  background-size: cover;
+.cold, .coffee__cart{
+  background-image: url(../img/menu-kitchen/cold.jpg);
+  background-repeat: no-repeat;
+  background-position: 200%;
+  background-size: auto 100%;
 }
 
-.salat{
-  background-image: url(https://i.ibb.co/tKrs3hj/salat.jpg);
-  background-position: center;
-  background-size: cover;
+.salat, .classic__tea{
+  background-image: url(../img/menu-kitchen/salat.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 50% auto;
 }
 
-.soup{
-  background-image: url(https://i.ibb.co/7rs4HGJ/kal.jpg);
-  background-position: center;
-  background-size: cover;
+.soup, .author__tea{
+  background-image: url(../img/menu-kitchen/kal.jpg);
+  background-repeat: no-repeat;
+  background-position: right 40%;
+  background-size: 50% auto; 
 }
 
 .pasta__img{
   width: 100%;
-  height: 200px;
+  max-height: 600px;
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -439,20 +442,102 @@ header .header__wrapper{
 }
 
 .hot{
-  background-image: url(https://i.ibb.co/GRhKtvG/hot.jpg);
-  background-position: center;
-  background-size: cover;
+  background-image: url(../img/menu-kitchen/hot.jpg);
+  background-repeat: no-repeat;
+  background-position: 120%;
+  background-size: auto 100%;
 }
 
 .desert{
-  background-image: url(https://i.ibb.co/CKrpJcd/desert.jpg);
-  background-size: cover;
+  background-image: url(../img/menu-kitchen/desert.jpg);
+  background-repeat: no-repeat;
+  background-position: right 20%;
+  background-size:  50% auto;
 }
 
 .sus{
   width: 100%;
 }
 
+@media (max-width: 1200px){
+  .cold, .coffee__cart{
+    background-position:-40% 50%;
+  }
+  
+  .salat, .classic__tea{
+    background-position: left;
+    background-size: auto 100%;
+  }
+  .pasta__img{
+    max-height: 400px;
+
+  }
+  .hot{
+    background-position: -900% 50%;
+  }
+  
+}
+@media (max-width: 765px){
+  .cold, .coffee__cart{
+    background-position: 30% 50%;
+  }
+  
+  .hot{
+    background-position: -50% 50%;
+  }
+  
+}
+@media (max-width: 600px){
+  .pasta__img{
+    max-height: 200px;
+
+  }
+  .cold, .coffee__cart{
+    background-position: -90% 50%;
+  }
+  
+  .hot{
+    background-position: 250% 50%;
+  }
+  
+}
+@media (max-width: 500px){
+
+  .cold, .coffee__cart{
+    background-position: -30% 50%;
+  }
+  
+  .hot{
+    background-position: 110% 50%;
+  }
+  
+}
+@media (max-width: 450px){
+
+  .cold, .coffee__cart{
+    background-position: -10% 50%;
+  }
+  
+  .hot{
+    background-position: -40% 50%;
+  }
+  
+}
+@media (max-width: 400px){
+
+  .cold, .coffee__cart{
+    background-position: 10% 50%;
+  }
+  
+  .hot{
+    background-position: -10% 50%;
+  }
+
+  .desert{
+    background-size:  auto 100%;
+  }
+  
+}
 @media (min-width: 800px) {
   .pasta__img img{
     transform: none;
