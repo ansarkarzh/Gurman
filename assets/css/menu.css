@@ -408,42 +408,55 @@ header .header__wrapper{
 }
 
 .cold{
-  background-image: url(../img/menu-kitchen/cold.jpg);
+  background-image: url(https://i.ibb.co/XFsJp51/cold.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .salat{
-  background-image: url(../img/menu-kitchen/salat.jpg);
+  background-image: url(https://i.ibb.co/tKrs3hj/salat.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .soup{
-  background-image: url(../img/menu-kitchen/kal.jpg);
+  background-image: url(https://i.ibb.co/7rs4HGJ/kal.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.pasta{
-  background-image: url(../img/menu-kitchen/pasta.jpg);
-  background-position: center;
-  background-size: cover;
+.pasta__img{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.pasta__img img{
+  object-fit: cover;
+  width: 100%;
+  /*transform: translate(-25%, -25%);*/
 }
 
 .hot{
-  background-image: url(../img/menu-kitchen/hot.jpg);
+  background-image: url(https://i.ibb.co/GRhKtvG/hot.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .desert{
-  background-image: url(../img/menu-kitchen/desert.jpg);
+  background-image: url(https://i.ibb.co/CKrpJcd/desert.jpg);
   background-size: cover;
 }
 
 .sus{
   width: 100%;
+}
+
+@media (min-width: 800px) {
+  .pasta__img img{
+    transform: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -612,5 +625,17 @@ footer{
 @media (max-width: 575.98px){
   .about__content{
     text-align: center;
+  }
+}
+
+@media (max-width: 300px){
+  .item__name,
+  .item__price,
+  .item__size,
+  .item__desc{
+    font-size: 8px;
+  }
+  .category__name{
+    font-size: 10px;
   }
 }
