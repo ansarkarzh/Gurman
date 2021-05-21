@@ -130,7 +130,7 @@ h5{
 .menu__item{
   display: flex;
   justify-content: space-between;
-  padding: 2 10px;
+  padding: 2px 10px;
 }
 
 .item__name{
@@ -410,7 +410,7 @@ header .header__wrapper{
 .cold, .coffee__cart, .whiskey{
   background-image: url(../img/menu-kitchen/cold.jpg);
   background-repeat: no-repeat;
-  background-position: 490%;
+  background-position: right;
   background-size: auto 100%;
 }
 
@@ -462,7 +462,7 @@ header .header__wrapper{
 .hot, .konyak{
   background-image: url(../img/menu-kitchen/hot.jpg);
   background-repeat: no-repeat;
-  background-position: 350%;
+  background-position: right;
   background-size: auto 100%;
 }
 
@@ -471,8 +471,12 @@ header .header__wrapper{
   background-repeat: no-repeat;
   background-position: right 20%;
   background-size:  50% auto;
+  padding-bottom: 200px;
 }
 
+.desert{
+
+}
 .konyak{
   background-image: url(../img/menu-bar/conyak.jpg);
   background-repeat: no-repeat;
