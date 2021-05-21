@@ -407,7 +407,7 @@ header .header__wrapper{
   display: none;
 }
 
-.cold, .coffee__cart, .whiskey{
+.cold{
   background-image: url(../img/menu-kitchen/cold.jpg);
   background-repeat: no-repeat;
   background-position: right;
@@ -416,8 +416,9 @@ header .header__wrapper{
 
 .coffee__cart{
   background-image: url(../img/menu-bar/coffee.jpg);
+  background-position: right;
+  background-size: 50% auto;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .salat{
@@ -430,7 +431,8 @@ header .header__wrapper{
 .classic__tea{
   background-image: url(../img/menu-bar/classictea.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: left top;
+  background-size: 50% auto;
 }
 
 .soup{
@@ -443,7 +445,8 @@ header .header__wrapper{
 .author__tea{
   background-image: url(../img/menu-bar/authortea.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right bottom;
+  background-size: 50% auto; 
 }
 
 .pasta__img{
@@ -453,48 +456,63 @@ header .header__wrapper{
   margin-bottom: 20px;
 }
 
+.mors__img{
+  width: 100%;
+  max-height: 650px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.mors__img img{
+  width: 100%;
+  max-height: 650px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+
 .pasta__img img{
   object-fit: cover;
   width: 100%;
   /*transform: translate(-25%, -25%);*/
 }
 
-.hot, .konyak{
+.hot{
   background-image: url(../img/menu-kitchen/hot.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: auto 100%;
 }
 
-.desert, .tequilla{
+.desert{
   background-image: url(../img/menu-kitchen/desert.jpg);
   background-repeat: no-repeat;
   background-position: right 20%;
   background-size:  50% auto;
   padding-bottom: 200px;
+  margin-bottom: 50px;
 }
 
-.desert{
-
-}
 .konyak{
   background-image: url(../img/menu-bar/conyak.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: left;
+  background-size: 50% auto;
 }
 
 .whiskey{
   background-image: url(../img/menu-bar/viski.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-position: right;
+  background-size: auto 100%;
 }
 
 .tequilla{
   background-image: url(../img/menu-bar/roma.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-position: left 20%;
+  background-size: 50% auto;
 }
 
 .sus{
@@ -502,29 +520,58 @@ header .header__wrapper{
 }
 
 @media (max-width: 1200px){
-  .cold, .coffee__cart, .whiskey{
+  .cold{
     background-position:-50% 50%;
   }
-  
-  .salat, .classic__tea{
+
+  .konyak{
+    background-size: auto 100%;
+    background-position: -30% center;
+  }
+
+  .whiskey{
+    background-position: 150% 50%;
+  }
+  .salat{
     background-position: left;
-    background-size: 50% auto;
+    background-size: cover;
   }
   .pasta__img{
     max-height: 400px;
 
   }
-  .hot, .konyak{
+  .hot{
     background-position: -50% 50%;
   }
+  .coffee__cart{
+    background-size: auto 100%;
+    background-position: 110% 50%;
+  }
   
+  .classic__tea{
+    background-position: -10% top;
+    background-size: auto 100%;
+  }
+
+  
+  .author__tea{
+    background-image: url(../img/menu-bar/authortea.jpg);
+    background-repeat: no-repeat;
+    background-position: 110% bottom;
+    background-size: auto 100%; 
+  }
+  
+  .tequilla{
+    background-position: left 20%;
+    background-size: auto 100%;
+  }
 }
 @media (max-width: 765px){
-  .cold, .coffee__cart, .whiskey{
+  .cold{
     background-position: 30% 50%;
   }
   
-  .hot, .konyak{
+  .hot{
     background-position: -50% 50%;
   }
 
@@ -536,14 +583,14 @@ header .header__wrapper{
     max-height: 200px;
 
   }
-  .cold, .coffee__cart, .whiskey{
+  .cold{
     background-position: 150% 50%;
   }
   
-  .hot, .konyak{
+  .hot{
     background-position: -100% 50%;
   }
-  .soup, .author__tea{
+  .soup{
     background-size:50% auto; 
   }
 
@@ -554,38 +601,42 @@ header .header__wrapper{
 }
 @media (max-width: 500px){
 
-  .cold, .coffee__cart, .whiskey{
+  .cold{
     background-position: -30% 50%;
   }
   
   .hot, .konyak{
     background-position: -60% 50%;
   }
+
+  .desert{
+    padding-bottom: 0;
+  }
   
 }
 @media (max-width: 450px){
 
-  .cold, .coffee__cart, .whiskey{
+  .cold{
     background-position: -10% 50%;
   }
   
-  .hot, .konyak{
+  .hot{
     background-position: -40% 50%;
   }
   
 }
 @media (max-width: 400px){
 
-  .cold, .coffee__cart{
+  .cold{
     background-position: 10% 50%;
   }
   
-  .hot, .konyak{
+  .hot{
     background-position: -10% 50%;
   }
 
-  .desert, .tequilla{
-    background-size:  auto 100%;
+  .desert{
+    background-size: 50% auto;
   }
   
 }
@@ -775,3 +826,6 @@ footer{
     font-size: 10px;
   }
 }
+
+
+/*   TODO:     сделать адаптив меньше 800пх         */
