@@ -407,25 +407,43 @@ header .header__wrapper{
   display: none;
 }
 
-.cold, .coffee__cart{
+.cold{
   background-image: url(../img/menu-kitchen/cold.jpg);
   background-repeat: no-repeat;
   background-position: 200%;
   background-size: auto 100%;
 }
 
-.salat, .classic__tea{
+.coffee__cart{
+  background-image: url(../img/menu-bar/coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.salat{
   background-image: url(../img/menu-kitchen/salat.jpg);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 50% auto;
 }
 
-.soup, .author__tea{
+.classic__tea{
+  background-image: url(../img/menu-bar/classictea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.soup{
   background-image: url(../img/menu-kitchen/kal.jpg);
   background-repeat: no-repeat;
   background-position: right 40%;
   background-size: 50% auto; 
+}
+
+.author__tea{
+  background-image: url(../img/menu-kitchen/kal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pasta__img{
@@ -453,6 +471,26 @@ header .header__wrapper{
   background-repeat: no-repeat;
   background-position: right 20%;
   background-size:  50% auto;
+}
+
+.konyak{
+  background-image: url(../img/menu-bar/conyak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whiskey{
+  background-image: url(../img/menu-bar/viski.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tequilla{
+  background-image: url(../img/menu-bar/roma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .sus{
