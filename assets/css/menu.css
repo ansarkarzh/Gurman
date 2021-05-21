@@ -101,11 +101,24 @@ h5{
 }
 
 .menu__wrapper{
-  width: 45%;
+  width: 100%;
+  position: relative;
+}
+
+.left{
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.right{
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .items__wrapper{
   margin-bottom: 20px;
+  width: 50%;
+  background-color: white;
 }
 
 .category__name{
@@ -127,13 +140,15 @@ h5{
 .item__desc{
   padding: 0;
   margin: 0;
-  margin-top: 5px;
+  /*margin-top: 5px;*/
   font-size: 12px;
   word-wrap: break-word;
 }
 
 .item{
+  padding: 10px;
   width: 50%;
+  padding-left: 0px;
 }
 
 .price{
@@ -392,6 +407,45 @@ header .header__wrapper{
   display: none;
 }
 
+.cold{
+  background-image: url(../img/menu-kitchen/cold.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.salat{
+  background-image: url(../img/menu-kitchen/salat.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.soup{
+  background-image: url(../img/menu-kitchen/kal.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pasta{
+  background-image: url(../img/menu-kitchen/pasta.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hot{
+  background-image: url(../img/menu-kitchen/hot.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.desert{
+  background-image: url(../img/menu-kitchen/desert.jpg);
+  background-size: cover;
+}
+
+.sus{
+  width: 100%;
+}
+
 @media (max-width: 500px) {
   header {
     display: flex;
@@ -541,6 +595,9 @@ footer{
 }
 
 @media (max-width: 600px){
+  .item{
+    padding: 0px;
+  }
   .footer__wrapper{
     flex-direction: column;
   }
