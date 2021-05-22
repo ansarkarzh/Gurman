@@ -460,14 +460,14 @@ header .header__wrapper{
   width: 100%;
   max-height: 650px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .mors__img img{
   width: 100%;
   max-height: 650px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   object-fit: cover;
   width: 100%;
 }
@@ -672,10 +672,7 @@ header .header__wrapper{
   .hot{
     background-position: -40% 50%;
   }
-  .coffee__cart{
-    background-position: 120% 50%;
-    background-size: auto 100%;
-  }
+  
   
 }
 
@@ -700,7 +697,10 @@ header .header__wrapper{
   .desert{
     background-size: 50% auto;
   }
-  
+  .coffee__cart{
+    background-position: 120% 50%;
+    background-size: auto 100%;
+  }
 }
 
 @media (max-width: 350px){
