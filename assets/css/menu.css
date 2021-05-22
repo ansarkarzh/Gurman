@@ -615,6 +615,22 @@ header .header__wrapper{
   
 }
 @media (max-width: 500px){
+  .konyak{
+    background-image: url(../img/menu-bar/conyak1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50% auto;
+  }
+  
+  .whiskey{
+    background-image: url(../img/menu-bar/viski1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+  }
+}
+
+@media (max-width: 500px){
 
   .cold{
     background-position: -30% 50%;
@@ -627,7 +643,7 @@ header .header__wrapper{
   .desert{
     padding-bottom: 0;
   }
-  .whiskey, .tequilla{
+  .tequilla{
     background-size: auto 100%;
   }
   
