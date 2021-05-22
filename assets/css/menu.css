@@ -677,7 +677,10 @@ header .header__wrapper{
   
 }
 @media (max-width: 400px){
-  .classic__tea, .author__tea{
+  .coffee__cart{
+    background-position: 120% 50%;
+  }
+  .classic__tea{
     background-size: auto 100%;
   }
   .cold{
@@ -690,6 +693,13 @@ header .header__wrapper{
 
   .desert{
     background-size: 50% auto;
+  }
+  
+}
+
+@media (max-width: 350px){
+  .konyak{
+    background-size: auto 100%;
   }
   
 }
