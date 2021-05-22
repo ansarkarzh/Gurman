@@ -672,13 +672,20 @@ header .header__wrapper{
   .hot{
     background-position: -40% 50%;
   }
-  
-}
-@media (max-width: 400px){
   .coffee__cart{
     background-position: 120% 50%;
     background-size: auto 100%;
   }
+  
+}
+
+@media (min-width: 379px) and (max-width: 450px){
+  .whiskey{
+    background-size:50% auto;
+  }
+}
+@media (max-width: 400px){
+  
   .classic__tea{
     background-size: auto 100%;
   }
