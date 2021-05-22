@@ -158,7 +158,7 @@ h5{
 }
 
 .item__size{
-  margin: auto 3px;
+  margin: auto;
 }
 
 .item__price{
@@ -224,19 +224,19 @@ h5{
 
 @media (max-width: 575.98px){
   .category__name{
-    font-size: 10px;
+    font-size: 12px;
   }
   .item__name{
-    font-size: 10px;
+    font-size: 12px;
   }
   .item__desc{
-    font-size: 8px;
+    font-size: 10px;
   }
   .item__price{
-    font-size: 8px;
+    font-size: 10px;
   }
   .item__size{
-    font-size: 8px;
+    font-size: 10px;
   }
   .bar__name h1{
     font-size: 30px;
@@ -526,11 +526,11 @@ header .header__wrapper{
 
   .konyak{
     background-size: auto 100%;
-    background-position: -30% center;
+    background-position: 0 center;
   }
 
   .whiskey{
-    background-position: 150% 50%;
+    background-position: 110% 50%;
   }
   .salat{
     background-position: left;
@@ -544,21 +544,21 @@ header .header__wrapper{
     background-position: -50% 50%;
   }
   .coffee__cart{
-    background-size: auto 100%;
-    background-position: 110% 50%;
+    background-size: 50% auto;
+    background-position: 100% 50%;
   }
   
   .classic__tea{
-    background-position: -10% top;
-    background-size: auto 100%;
+    background-position: 0 50%;
+    background-size: 50% auto;
   }
 
   
   .author__tea{
     background-image: url(../img/menu-bar/authortea.jpg);
     background-repeat: no-repeat;
-    background-position: 110% bottom;
-    background-size: auto 100%; 
+    background-position: 100% bottom;
+    background-size: 50% auto; 
   }
   
   .tequilla{
@@ -579,6 +579,21 @@ header .header__wrapper{
   
 }
 @media (max-width: 600px){
+
+  .konyak{
+    background-size: 50% auto;
+    background-position: 0 center;
+  }
+
+  .whiskey{
+    background-position: 0 50%;
+    background-size: 50% auto;
+  }
+
+  .tequilla{
+    background-position: left 20%;
+    background-size: 50% auto;
+  }
   .pasta__img{
     max-height: 200px;
 
@@ -605,17 +620,23 @@ header .header__wrapper{
     background-position: -30% 50%;
   }
   
-  .hot, .konyak{
+  .hot{
     background-position: -60% 50%;
   }
 
   .desert{
     padding-bottom: 0;
   }
+  .whiskey, .tequilla{
+    background-size: auto 100%;
+  }
+  
   
 }
 @media (max-width: 450px){
-
+  .konyak{
+    background-size: auto 100%;
+  }
   .cold{
     background-position: -10% 50%;
   }
@@ -626,7 +647,9 @@ header .header__wrapper{
   
 }
 @media (max-width: 400px){
-
+  .coffee__cart, .classic__tea, .author__tea{
+    background-size: auto 100%;
+  }
   .cold{
     background-position: 10% 50%;
   }
@@ -825,25 +848,6 @@ footer{
   .category__name{
     font-size: 10px;
   }
-}
-
-.vines__name{
-  padding: 15px;
-}
-
-.strana__name{
-  text-transform: uppercase;
-  padding: 15px;
-  background-color: white;
-  color: black;
-  margin-top: 10px;
-}
-
-.vines__wrapper{
-  background-color: transparent;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 20px;
 }
 
 
