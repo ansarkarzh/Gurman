@@ -227,16 +227,16 @@ h5{
     font-size: 12px;
   }
   .item__name{
-    font-size: 12px;
+    font-size: 11px;
   }
   .item__desc{
     font-size: 10px;
   }
   .item__price{
-    font-size: 10px;
+    font-size: 9px;
   }
   .item__size{
-    font-size: 10px;
+    font-size: 9px;
   }
   .bar__name h1{
     font-size: 30px;
@@ -634,7 +634,21 @@ header .header__wrapper{
   
 }
 @media (max-width: 450px){
-  .konyak{
+  .konyak, .coffee__cart{
+    background-size: auto 100%;
+  }
+  .cold{
+    background-position: -10% 50%;
+  }
+  
+  .hot{
+    background-position: -40% 50%;
+  }
+  
+}
+
+@media (max-width: 435px){
+  .konyak, .coffee__cart{
     background-size: auto 100%;
   }
   .cold{
@@ -647,7 +661,7 @@ header .header__wrapper{
   
 }
 @media (max-width: 400px){
-  .coffee__cart, .classic__tea, .author__tea{
+  .classic__tea, .author__tea{
     background-size: auto 100%;
   }
   .cold{
@@ -843,7 +857,7 @@ footer{
   .item__price,
   .item__size,
   .item__desc{
-    font-size: 8px;
+    font-size: 7px;
   }
   .category__name{
     font-size: 10px;
