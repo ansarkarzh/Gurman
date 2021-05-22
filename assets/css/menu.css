@@ -158,7 +158,7 @@ h5{
 }
 
 .item__size{
-  margin: auto;
+  margin: auto 3px;
 }
 
 .item__price{
@@ -224,19 +224,19 @@ h5{
 
 @media (max-width: 575.98px){
   .category__name{
-    font-size: 12px;
+    font-size: 10px;
   }
   .item__name{
-    font-size: 12px;
+    font-size: 10px;
   }
   .item__desc{
-    font-size: 10px;
+    font-size: 8px;
   }
   .item__price{
-    font-size: 10px;
+    font-size: 8px;
   }
   .item__size{
-    font-size: 10px;
+    font-size: 8px;
   }
   .bar__name h1{
     font-size: 30px;
@@ -825,6 +825,25 @@ footer{
   .category__name{
     font-size: 10px;
   }
+}
+
+.vines__name{
+  padding: 15px;
+}
+
+.strana__name{
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+}
+
+.vines__wrapper{
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 
 

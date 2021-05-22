@@ -529,3 +529,57 @@ footer{
     text-align: center;
   }
 }
+
+.vines1{
+  background-image: url(../img/vines/vine1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; 
+}
+
+.vines2{
+  background-image: url(../img/vines/vine2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+
+.vines__items{
+  padding: 5px;
+  background-color: white;
+}
+
+.vines3{
+  background-image: url(../img/vines/vine3.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+
+.vines4{
+  background-image: url(../img/vines/vine4.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+
+.vines5{
+  background-image: url(../img/vines/vine5.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+
+.vines6{
+  background-image: url(../img/vines/vine6.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
+
+.vines7{
+  background-image: url(../img/vines/vine7.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; 
+}
