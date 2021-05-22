@@ -586,7 +586,7 @@ header .header__wrapper{
   }
 
   .whiskey{
-    background-position: 0 50%;
+    background-position: 100% 50%;
     background-size: 50% auto;
   }
 
@@ -614,21 +614,7 @@ header .header__wrapper{
   }
   
 }
-@media (max-width: 500px){
-  .konyak{
-    background-image: url(../img/menu-bar/conyak1.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50% auto;
-  }
-  
-  .whiskey{
-    background-image: url(../img/menu-bar/viski1.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: auto 100%;
-  }
-}
+
 
 @media (max-width: 500px){
 
@@ -650,6 +636,18 @@ header .header__wrapper{
   
 }
 @media (max-width: 450px){
+  .konyak{
+    background-image: url(../img/menu-bar/conyak1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  
+  .whiskey{
+    background-image: url(../img/menu-bar/viski1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+  }
   .konyak, .coffee__cart{
     background-size: auto 100%;
   }
@@ -665,7 +663,7 @@ header .header__wrapper{
 
 @media (max-width: 435px){
   .konyak, .coffee__cart{
-    background-size: auto 100%;
+    background-size: 50% auto;
   }
   .cold{
     background-position: -10% 50%;
@@ -679,6 +677,7 @@ header .header__wrapper{
 @media (max-width: 400px){
   .coffee__cart{
     background-position: 120% 50%;
+    background-size: auto 100%;
   }
   .classic__tea{
     background-size: auto 100%;
