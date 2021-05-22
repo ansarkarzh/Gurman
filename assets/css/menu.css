@@ -681,6 +681,11 @@ header .header__wrapper{
     background-size:50% auto;
   }
 }
+@media (min-width: 350px) and (max-width: 450px){
+  .coffee__cart{
+    background-position: right center;
+  }
+}
 @media (max-width: 400px){
   
   .classic__tea{
