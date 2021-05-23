@@ -974,12 +974,16 @@ footer{
   position: absolute;
 }
 
-.popa__close:hover{
-  color: red;
-}
-
 .popa__close:active{
   transform: scale(0.9);
+}
+
+.popa__close:visited{
+  color: black;
+}
+
+.popa__close:hover{
+  color: maroon;
 }
 
 .popaitem{
@@ -1056,10 +1060,52 @@ footer{
     padding: 20px;
   }
   .popa__close{
-    top: 5px;
-    right: 7px;
+    top: 3px;
+    right: 9px;
     font-size: 20px;
   }
+}
+
+@media (min-width: 1200px){
+  .popa__close{
+    font-size: 30px;
+    top: 10px;
+  }
+}
+
+.menu__section h5{
+  font-weight: 400;
+}
+
+.bar__name h1{
+  text-align: center;
+}
+
+.menupopaitem__img{
+  width: 70%;
+  padding: 0;
+}
+
+.menupopaitem{
+  min-height: unset;
+  justify-content: center;
+}
+
+.menupopaitem__img img{
+  object-fit: cover;
+}
+
+.menuitem__content{
+  min-height: unset;
+  padding: 0px;
+}
+
+.menupopaitem__name{
+  background-color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
 }
 
 /*   TODO:     сделать адаптив меньше 800пх         */
