@@ -520,6 +520,9 @@ header .header__wrapper{
 }
 
 @media (max-width: 1200px){
+  .vines6{
+    background-position: right;
+  }
   .cold{
     background-position:-50% 50%;
   }
@@ -636,6 +639,10 @@ header .header__wrapper{
   
 }
 @media (max-width: 450px){
+  .vines6{
+    background-position: left;
+  }
+
   .konyak{
     background-image: url(../img/menu-bar/conyak1.jpg);
     background-repeat: no-repeat;
