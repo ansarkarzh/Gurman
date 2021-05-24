@@ -1162,6 +1162,11 @@ footer{
 }
 
 .menupopaitem__img{
+  position: absolute;
+  bottom: 0;
+  height: 80%;
+  margin: 0;
+  padding: 0;
 }
 
 .menupopaitem{
@@ -1170,21 +1175,54 @@ footer{
 }
 
 .menupopaitem__img img{
-  object-fit: cover;
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
 
 
 .menuitem__content{
+  position: relative;
   min-height: unset;
   padding: 0px;
+  height: 40vh;
+  width: 60vw;
 }
 
 .menupopaitem__name{
+  margin-top: 30px;
   background-color: white;
   padding: 15px 0;
   width: 100%;
   text-align: center;
   font-size: 30px;
+}
+
+@media (max-width: 800px){
+  .menuitem__content{
+    width: 100vw;
+  }
+}
+
+@media (max-width: 600px){
+  .menupopaitem__name{
+    margin-top: 0px;
+  }
+  .menuitem__content{
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px){
+  .menupopaitem__name{
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 600px){
+  .menuitem__content{
+    height: 60vh;
+  }
 }
 
 /*   TODO:     сделать адаптив меньше 800пх         */
