@@ -166,6 +166,10 @@ h5{
   margin: auto;
 }
 
+.menu__items{
+  padding-top: 5px;
+}
+
 @media (min-width: 575.98px){
   .container {
     max-width: 565px;
@@ -224,20 +228,25 @@ h5{
 }
 
 @media (max-width: 575.98px){
+  .menu__items{
+    padding-top: 2px;
+  }
   .category__name{
     font-size: 10px;
+    padding: 5px;
+    padding-left: 10px; 
   }
   .item__name{
     font-size: 8px;
   }
   .item__desc{
-    font-size: 10px;
+    font-size: 6px;
   }
   .item__price{
-    font-size: 9px;
+    font-size: 8px;
   }
   .item__size{
-    font-size: 9px;
+    font-size: 8px;
   }
   .bar__name h1{
     font-size: 30px;
@@ -1206,7 +1215,8 @@ object-fit: cover;
 
 @media (max-width: 600px){
   .menupopaitem__name{
-    margin-top: 0px;
+    font-size: 18px;
+    margin-top: 10px;
   }
   .menuitem__content{
     width: 100%;
@@ -1215,6 +1225,7 @@ object-fit: cover;
 
 @media (max-width: 400px){
   .menupopaitem__name{
+    font-size: 16px;
     padding: 10px 0;
   }
 }
