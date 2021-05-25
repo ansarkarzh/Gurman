@@ -631,9 +631,6 @@ header .header__wrapper{
 
 @media (max-width: 500px){
 
-  .cold{
-    background-position: -30% 50%;
-  }
   
   .hot{
     background-position: -60% 50%;
@@ -668,10 +665,6 @@ header .header__wrapper{
   .konyak, .coffee__cart{
     background-size: auto 100%;
   }
-  .cold{
-    background-position: -10% 50%;
-  }
-  
   .hot{
     background-position: -40% 50%;
   }
@@ -682,10 +675,6 @@ header .header__wrapper{
   .konyak, .coffee__cart{
     background-size: 50% auto;
   }
-  .cold{
-    background-position: -10% 50%;
-  }
-  
   .hot{
     background-position: -40% 50%;
   }
@@ -708,9 +697,7 @@ header .header__wrapper{
   .classic__tea{
     background-size: auto 100%;
   }
-  .cold{
-    background-position: 10% 50%;
-  }
+
   
   .hot{
     background-position: -10% 50%;
