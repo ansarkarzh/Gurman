@@ -77,6 +77,11 @@ h5{
   margin: 0 auto;
 }
 
+.zero{
+  visibility: hidden;
+  opacity: 0;
+}
+
 .menu__name{
   display: flex;
   justify-content: space-between;

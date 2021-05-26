@@ -261,6 +261,12 @@ header .header__wrapper{
   background-color: white;
   font-size: 18px;
   padding: 10px;
+  border: 1px solid black;
+}
+
+.zero{
+	visibility: hidden;
+	opacity: 0;
 }
 
 .about__desc1{
@@ -504,6 +510,12 @@ footer{
 
 .footer__desc{
   font-size: 14px;
+}
+
+.second{
+	margin: 0;
+	padding: 0;
+	display: inline;
 }
 
 .fas{
