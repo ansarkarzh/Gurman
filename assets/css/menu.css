@@ -553,9 +553,6 @@ header .header__wrapper{
     max-height: 400px;
 
   }
-  .hot{
-    background-position: -50% 50%;
-  }
   .coffee__cart{
     background-size: 50% auto;
     background-position: 100% 50%;
@@ -584,11 +581,6 @@ header .header__wrapper{
     background-position: 30% 50%;
   }
   
-  .hot{
-    background-position: -50% 50%;
-  }
-
- 
   
 }
 @media (max-width: 600px){
@@ -615,9 +607,6 @@ header .header__wrapper{
     background-position: 150% 50%;
   }
   
-  .hot{
-    background-position: -100% 50%;
-  }
   .soup{
     background-size:50% auto; 
   }
@@ -631,10 +620,6 @@ header .header__wrapper{
 
 @media (max-width: 500px){
 
-  
-  .hot{
-    background-position: -60% 50%;
-  }
 
   .desert{
     padding-bottom: 0;
@@ -665,9 +650,6 @@ header .header__wrapper{
   .konyak, .coffee__cart{
     background-size: auto 100%;
   }
-  .hot{
-    background-position: -40% 50%;
-  }
   
 }
 
@@ -675,10 +657,6 @@ header .header__wrapper{
   .konyak, .coffee__cart{
     background-size: 50% auto;
   }
-  .hot{
-    background-position: -40% 50%;
-  }
-  
   
 }
 
@@ -699,9 +677,6 @@ header .header__wrapper{
   }
 
   
-  .hot{
-    background-position: -10% 50%;
-  }
 
   .desert{
     background-size: 50% auto;
