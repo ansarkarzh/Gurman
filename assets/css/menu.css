@@ -538,9 +538,6 @@ header .header__wrapper{
   .vines6{
     background-position: right;
   }
-  .cold{
-    background-position:-50% 50%;
-  }
 
   .konyak{
     background-size: auto 100%;
@@ -581,13 +578,7 @@ header .header__wrapper{
     background-size: auto 100%;
   }
 }
-@media (max-width: 765px){
-  .cold{
-    background-position: 30% 50%;
-  }
-  
-  
-}
+
 @media (max-width: 600px){
 
   .konyak{
@@ -607,9 +598,6 @@ header .header__wrapper{
   .pasta__img{
     max-height: 200px;
 
-  }
-  .cold{
-    background-position: 150% 50%;
   }
   
   .soup{
@@ -667,6 +655,16 @@ header .header__wrapper{
 
 @media (min-width: 379px) and (max-width: 450px){
   .whiskey{
+    background-size:50% auto;
+  }
+}
+@media (min-width: 427px) and (max-width: 575px){
+  .cold{
+    background-size:50% auto;
+  }
+}
+@media (min-width: 440px) and (max-width: 575px){
+  .hot{
     background-size:50% auto;
   }
 }
