@@ -496,8 +496,8 @@ header .header__wrapper{
 .hot{
   background-image: url(../img/menu-kitchen/hot.jpg);
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: auto 100%;
+  background-position: right center;
+  background-size: 50% auto;
 }
 
 .desert{
