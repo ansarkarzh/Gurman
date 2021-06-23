@@ -436,6 +436,13 @@ header .header__wrapper{
   background-repeat: no-repeat;
 }
 
+.section__vodka{
+  background-image: url(../img/menu-bar/vodka.jpg);
+  background-position: right;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+}
+
 .salat{
   background-image: url(../img/menu-kitchen/salat.jpg);
   background-repeat: no-repeat;
