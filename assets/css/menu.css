@@ -618,7 +618,7 @@ header .header__wrapper{
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 390px){
 
 
   .desert{
@@ -641,16 +641,19 @@ header .header__wrapper{
     background-position: left;
   }
   
+  
+  .konyak{
+    background-size: auto 100%;
+  }
+  
+}
+@media (max-width: 350px){
   .whiskey{
     background-image: url(../img/menu-bar/viski1.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto 100%;
   }
-  .konyak, .coffee__cart{
-    background-size: auto 100%;
-  }
-  
 }
 
 @media (max-width: 435px){
@@ -660,7 +663,7 @@ header .header__wrapper{
   
 }
 
-@media (min-width: 379px) and (max-width: 450px){
+@media (max-width: 450px){
   .whiskey{
     background-size:50% auto;
   }
@@ -675,34 +678,13 @@ header .header__wrapper{
     background-size:50% auto;
   }
 }
-@media (min-width: 350px) and (max-width: 450px){
-  .coffee__cart{
-    background-position: right center;
-  }
-}
+
 @media (max-width: 400px){
-  
-  .classic__tea{
-    background-size: auto 100%;
-  }
-
-  
-
   .desert{
     background-size: 50% auto;
   }
-  .coffee__cart{
-    background-position: 120% 50%;
-    background-size: auto 100%;
-  }
 }
 
-@media (max-width: 350px){
-  .konyak{
-    background-size: auto 100%;
-  }
-  
-}
 @media (min-width: 800px) {
   .pasta__img img{
     transform: none;
@@ -1210,3 +1192,8 @@ margin: 0 auto;
 }*/
 
 /*   TODO:     сделать адаптив меньше 800пх         */
+
+.lazybg {
+  background-image: none;
+  background-color: #F1F1FA;
+}

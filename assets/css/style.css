@@ -546,3 +546,9 @@ footer{
     text-align: center;
   }
 }
+
+
+.lazybg {
+  background-image: none;
+  background-color: #F1F1FA;
+}

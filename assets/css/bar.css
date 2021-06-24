@@ -530,6 +530,7 @@ footer{
   }
 }
 
+
 .vines1{
   background-image: url(../img/vines/vine1.jpg);
   background-repeat: no-repeat;
@@ -582,4 +583,10 @@ footer{
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover; 
+}
+
+
+.lazybg {
+  background-image: none;
+  background-color: #F1F1FA;
 }
