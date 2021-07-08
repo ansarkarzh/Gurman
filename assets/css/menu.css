@@ -537,6 +537,13 @@ header .header__wrapper{
   background-size: 50% auto;
 }
 
+.childporn{
+  background-image: url(../img/menu-kitchen/cp.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 100%;
+}
+
 .sus{
   width: 100%;
 }
