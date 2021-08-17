@@ -552,3 +552,19 @@ footer{
   background-image: none;
   background-color: #F1F1FA;
 }
+
+
+.video__container{
+  text-align: center;
+}
+
+video{
+  height: 55vh;
+  width: 40%;
+}
+
+@media (max-width: 700px){
+  video{
+    width: 100%;
+  }
+}
