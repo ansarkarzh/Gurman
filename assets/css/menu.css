@@ -1204,3 +1204,45 @@ margin: 0 auto;
   background-image: none;
   background-color: #F1F1FA;
 }
+.week-text{
+  width: 70%;
+  
+}
+
+.week-text h4{
+  font-size: 6vh;
+  text-align: left;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.week-text p{
+  font-size: 3vh;
+  text-align: left;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.weekly-content{
+  display: flex;
+  align-items: center;
+}
+
+.weekly-content>img{
+  width: 30%;
+  z-index: -1;
+}
+
+.week-date{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 500px){
+  .weekly-content>img{
+    width: 40%;
+  }
+  .week-text{
+    width: 60%;
+    
+  }
+}
